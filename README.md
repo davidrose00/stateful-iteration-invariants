@@ -49,7 +49,7 @@ fixtures, and judge transcripts live in [`benchmarks/`](benchmarks/)
 |---|---|
 | p1 paginator + redelivery | **skill** (exact-type catch, `None`-safe identity) |
 | p2 cache + LRU + stampede | **skill** (no re-entry deadlock, no hung followers on clock failure) |
-| p3 resume-sync | **skill** |
+| p3 resume-sync | **skill** (hardening depth) |
 | p4 watermark catch-up | **skill** (dedup-before-watermark; base exits early on redelivered offsets) |
 | p5 tree flattener | **skill** (symlink-alias semantics + type guards) |
 
