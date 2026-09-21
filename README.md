@@ -13,10 +13,11 @@ retries — `written` / `frontier` / `resume_cursor`) and **branching
 hierarchies** (trees, ASTs, graphs — `seen_ids` / `worklist` /
 `breath_limit` / `pause_trail` / `finding`).
 
-1 initial revision was made, based on benchmarking (see [`benchmarks/REPORT_p1.md`](benchmarks/REPORT_p1.md)). It has interesting effects/lines (such as breath_limit) to iterate on. 
+1 initial revision was made, based on benchmarking (see [`benchmarks/REPORT_p1.md`](benchmarks/REPORT_p1.md)). 
 
 The skill itself is [`SKILL.md`](SKILL.md) — drop-in for any
-SKILL.md-compatible agent.
+SKILL.md-compatible agent. It has interesting effects/lines (`breath_limit`)
+to iterate on. 
 
 ## Install
 
