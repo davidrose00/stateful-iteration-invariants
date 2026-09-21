@@ -55,7 +55,7 @@ Score: skill 5, base 0.
 
 ## Why? How?
 
-In search of benchmarks for SKILL.md's, you find the measurable effect of the master-set at skillsbench.ai/leaderboard echoed by the recent boost in common models 🙏🙏.
+In search of benchmarks for SKILL.md's, you find the measurable effect of the master-set at [`skillsbench.ai/leaderboard`](https://skillsbench.ai/leaderboard/) echoed by the recent boost in common models 🙏🙏.
 
 It began with a beautiful piece of code that took a while to make prose as a mould:
 
