@@ -43,15 +43,15 @@ session that is blind to everything: same fixed rubric every test
 (correctness > robustness > clarity, must name a concrete divergent input,
 verdict `A`/`B`/`TIE`), labels shuffled per test. Full reports with diffs,
 fixtures, and judge transcripts live in [`benchmarks/`](benchmarks/)
-(`REPORT_p1`/`p2`/`p3`/`p4`/`p5` — p3 is the resume-sync task).
+(`REPORT_p1`/`p2`/`p3`/`p4`/`p5`).
 
 | Task | Blind judge |
 |---|---|
 | p1 paginator + redelivery | **skill** (exact-type catch, `None`-safe identity) |
 | p2 cache + LRU + stampede | **skill** (no re-entry deadlock, no hung followers on clock failure) |
+| p3 resume-sync | **skill** |
 | p4 watermark catch-up | **skill** (dedup-before-watermark; base exits early on redelivered offsets) |
 | p5 tree flattener | **skill** (symlink-alias semantics + type guards) |
-| resume-sync (earlier) | **skill** |
 
 Score: skill 5, base 0.
 
