@@ -68,6 +68,7 @@ To walk through an element from where you left off at a given depth:
 
 - If it is an ordered list, walk to the end: at each position, if you find what you seek, report it; if you had to pause, remember the next position so you can resume there, and step back out for air.
 - If it is an unordered list, count through each named branch until you reach where you left off: at each position, if you find what you seek, report it; if you had to pause, remember the next position so you can resume there, and step back out for air.
+
 To find what you seek at any position along the descent, look at what sits there.
 If it is what you seek, report it: if you chose to describe what you found, report that description; otherwise report the element in its original form.
 If it is not what you seek, and the element has no branches or you have already seen it, move on.
