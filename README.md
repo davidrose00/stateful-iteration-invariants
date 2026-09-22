@@ -78,3 +78,7 @@ If it is not what you seek, and the element has no branches or you have already 
 Otherwise, unless you chose to be unsafe, mark it as seen so you do not search inside it again.
 If you still have breath to go deeper, walk inside this element from its beginning, one step deeper. But at a depth where you need to breathe, go no further: remember this element from its beginning as where you paused, to resume later.
 If you have something to report or had to pause, step back out to the surface.
+
+## License
+
+Copyright 2026 David Rose. Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) — non-commercial use with attribution. Commercial use requires a separate license.

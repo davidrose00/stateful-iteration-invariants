@@ -126,3 +126,9 @@ When any stateful loop or traversal fails:
 - [ ] **Falsy-Safe:** Uses explicit comparisons (`!== undefined`, `is not None`), preserving `0`, `false`, and `""`.
 - [ ] **Exact Catch & Keys:** Errors caught by exact type, never attribute shape; dedup keys separate missing/`None`/unhashable.
 - [ ] **Surfacing Rule Enforced:** In trees, immediately surface upon hit or breath exhaustion.
+
+---
+
+## License
+
+Copyright 2026 David Rose. Licensed under the PolyForm Noncommercial License 1.0.0 (`PolyForm-Noncommercial-1.0.0`) — non-commercial use with attribution. See LICENSE in the skill repository.
